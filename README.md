@@ -1,5 +1,8 @@
 # Argu.MicrosoftExtensions
 
+![Build](https://github.com/Tarmil/Argu.MicrosoftExtensions/workflows/Build/badge.svg)
+[![Nuget](https://img.shields.io/nuget/v/Argu.MicrosoftExtensions?logo=nuget)](https://nuget.org/packages/Argu.MicrosoftExtensions)
+
 This library helps integrate [Argu](http://fsprojects.github.io/Argu/), the F# argument and configuration parsing library, into Microsoft.Extensions hosted applications.
 It provides:
 
