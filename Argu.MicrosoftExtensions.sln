@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{379EBD01-8E0D-4E9F-850B-A866ADE8C35E}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Argu.MicrosoftExtensions", "src\Argu.MicrosoftExtensions\Argu.MicrosoftExtensions.fsproj", "{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0F559148-A572-4019-B543-3FB4D97F87AC}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Argu.MicrosoftExtensions.Tests", "test\Argu.MicrosoftExtensions.Tests\Argu.MicrosoftExtensions.Tests.fsproj", "{C86ECE9D-B798-4179-A263-F15457A61199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9BFDF571-6A7F-428F-A270-4011B856ED4B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{136CF416-1AC4-403A-9C8F-93E0FE66F47B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Debug|x64.Build.0 = Debug|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Debug|x86.Build.0 = Debug|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Release|x64.ActiveCfg = Release|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Release|x64.Build.0 = Release|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Release|x86.ActiveCfg = Release|Any CPU
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212}.Release|x86.Build.0 = Release|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Debug|x64.Build.0 = Debug|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Debug|x86.Build.0 = Debug|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Release|x64.ActiveCfg = Release|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Release|x64.Build.0 = Release|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Release|x86.ActiveCfg = Release|Any CPU
+		{C86ECE9D-B798-4179-A263-F15457A61199}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ACBC15B-C83A-4A03-A0A9-71EA5ED67212} = {379EBD01-8E0D-4E9F-850B-A866ADE8C35E}
+		{C86ECE9D-B798-4179-A263-F15457A61199} = {0F559148-A572-4019-B543-3FB4D97F87AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3485A45D-6591-4CD2-9A52-4CCC9D2FBD35}
+	EndGlobalSection
+EndGlobal
