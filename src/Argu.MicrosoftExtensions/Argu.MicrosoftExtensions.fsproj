@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Update="FSharp.Core" Version="4.5.2" />
-    <PackageReference Include="Argu" Version="4.0.0" />
+    <PackageReference Include="Argu" Version="6.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
     <PackageReference Include="nerdbank.gitversioning" Version="3.3.37">
